@@ -23,9 +23,6 @@
     "pretest": "rm -rf tmp/ && npm run lint",
     "test": "nyc mocha --async-only"
   },
-  "dependencies": {
-    "resolve": "^1.20.0"
-  },
   "devDependencies": {
     "eslint": "^7.21.0",
     "eslint-config-gulp": "^5.0.1",
